@@ -1,0 +1,43 @@
+.cursor-dot,
+.cursor-outline {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-color);
+}
+
+.cursor-outline {
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--primary-color);
+  transition: all 0.2s ease-out;
+}
+
+.cursor-dot.visible,
+.cursor-outline.visible {
+  opacity: 1;
+}
+
+.cursor-outline.pointer {
+  transform: translate(-50%, -50%) scale(1.5);
+  background-color: rgba(168, 208, 141, 0.1);
+  border-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
+} 

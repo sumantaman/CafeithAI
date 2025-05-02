@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cup Body -->
+  <path d="M60 100C60 88.9543 68.9543 80 80 80H220C231.046 80 240 88.9543 240 100V220C240 242.091 222.091 260 200 260H100C77.9086 260 60 242.091 60 220V100Z" fill="white"/>
+  
+  <!-- Cup Handle -->
+  <path d="M240 140C270 140 280 160 280 180C280 200 270 220 240 220" stroke="white" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Saucer -->
+  <ellipse cx="150" cy="260" rx="100" ry="20" fill="white"/>
+  
+  <!-- Coffee Surface -->
+  <path d="M80 100C80 94.4772 84.4772 90 90 90H210C215.523 90 220 94.4772 220 100V110C220 115.523 215.523 120 210 120H90C84.4772 120 80 115.523 80 110V100Z" fill="#A8D08D"/>
+</svg> 
